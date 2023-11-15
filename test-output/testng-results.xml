@@ -1,17 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-15T20:17:32 IST" name="Default suite" finished-at="2023-11-15T20:17:33 IST" duration-ms="942">
+  <suite started-at="2023-11-15T19:15:01 IST" name="All Test Suite" finished-at="2023-11-15T19:15:44 IST" duration-ms="42433">
     <groups>
     </groups>
-    <test started-at="2023-11-15T20:17:32 IST" name="Default test" finished-at="2023-11-15T20:17:33 IST" duration-ms="942">
+    <test started-at="2023-11-15T19:15:01 IST" name="C:/Users/R924826/Desktop/SDET-Assignment" finished-at="2023-11-15T19:15:44 IST" duration-ms="42433">
+      <class name="VerifyElements">
+        <test-method is-config="true" signature="intializeBrowser()[pri:0, instance:VerifyElements@1972e513]" started-at="2023-11-15T19:15:05 IST" name="intializeBrowser" finished-at="2023-11-15T19:15:06 IST" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeBrowser -->
+        <test-method signature="verifyElementsWithTimeout()[pri:0, instance:VerifyElements@1972e513]" started-at="2023-11-15T19:15:13 IST" name="verifyElementsWithTimeout" finished-at="2023-11-15T19:15:15 IST" duration-ms="2028" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method VerifyElements.verifyElementsWithTimeout() didn't finish within the time-out 2000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method VerifyElements.verifyElementsWithTimeout() didn't finish within the time-out 2000
+at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+at java.base@11.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+at java.base@11.0.11/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1798)
+at java.base@11.0.11/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3128)
+at java.base@11.0.11/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1868)
+at java.base@11.0.11/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:386)
+at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda$241/0x000000010022f440.execute(Unknown Source)
+at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$391/0x00000001002eac40.execute(Unknown Source)
+at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at app//org.openqa.selenium.remote.http.Filter$$Lambda$242/0x0000000100248040.execute(Unknown Source)
+at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
+at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at app//VerifyElements.verifyElementsWithTimeout(VerifyElements.java:69)
+at java.base@11.0.11/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@11.0.11/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base@11.0.11/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@11.0.11/java.lang.reflect.Method.invoke(Method.java:566)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@11.0.11/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base@11.0.11/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsWithTimeout -->
+        <test-method signature="verifyElements()[pri:1, instance:VerifyElements@1972e513]" started-at="2023-11-15T19:15:15 IST" name="verifyElements" finished-at="2023-11-15T19:15:41 IST" duration-ms="26113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VerifyElements@1972e513]" started-at="2023-11-15T19:15:43 IST" name="tearDown" finished-at="2023-11-15T19:15:44 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VerifyElements -->
       <class name="ReadAndWriteDate">
-        <test-method signature="readExcel()[pri:0, instance:ReadAndWriteDate@7161d8d1]" started-at="2023-11-15T20:17:33 IST" name="readExcel" finished-at="2023-11-15T20:17:33 IST" duration-ms="879" status="PASS">
+        <test-method signature="readExcel()[pri:0, instance:ReadAndWriteDate@7ae0a9ec]" started-at="2023-11-15T19:15:41 IST" name="readExcel" finished-at="2023-11-15T19:15:42 IST" duration-ms="752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readExcel -->
       </class> <!-- ReadAndWriteDate -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="LaunchBrowser">
+        <test-method is-config="true" signature="intializeBrowser()[pri:0, instance:LaunchBrowser@43df23d3]" started-at="2023-11-15T19:15:01 IST" name="intializeBrowser" finished-at="2023-11-15T19:15:05 IST" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeBrowser -->
+        <test-method signature="LaunchAndVerifyElements()[pri:0, instance:LaunchBrowser@43df23d3]" started-at="2023-11-15T19:15:06 IST" name="LaunchAndVerifyElements" finished-at="2023-11-15T19:15:13 IST" duration-ms="6946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndVerifyElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LaunchBrowser@43df23d3]" started-at="2023-11-15T19:15:42 IST" name="tearDown" finished-at="2023-11-15T19:15:43 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LaunchBrowser -->
+    </test> <!-- C:/Users/R924826/Desktop/SDET-Assignment -->
+  </suite> <!-- All Test Suite -->
 </testng-results>

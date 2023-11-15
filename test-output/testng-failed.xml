@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/R924826/Desktop/SDET-Assignment(failed)">
     <classes>
-      <class name="ReadAndWriteDate">
+      <class name="VerifyElements">
         <methods>
-          <include name="readExcel"/>
+          <include name="intializeBrowser"/>
+          <include name="verifyElementsWithTimeout"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- ReadAndWriteDate -->
+      </class> <!-- VerifyElements -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- C:/Users/R924826/Desktop/SDET-Assignment(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -3,13 +3,6 @@
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="C:/Users/R924826/Desktop/SDET-Assignment(failed)">
     <classes>
-      <class name="LaunchBrowser">
-        <methods>
-          <include name="LaunchAndVerifyElements"/>
-          <include name="intializeBrowser"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- LaunchBrowser -->
       <class name="VerifyElements">
         <methods>
           <include name="intializeBrowser"/>
@@ -17,11 +10,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- VerifyElements -->
-      <class name="ReadAndWriteDate">
-        <methods>
-          <include name="readExcel"/>
-        </methods>
-      </class> <!-- ReadAndWriteDate -->
     </classes>
   </test> <!-- C:/Users/R924826/Desktop/SDET-Assignment(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
